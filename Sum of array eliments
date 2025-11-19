@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main(){
+    int ross[5];
+    int sum =0;
+    printf("enter the eliments ");
+    for(int i=0;i<5;i++){
+        scanf("%d",&ross[i]);
+        sum=sum+ross[i];
+    }
+}
