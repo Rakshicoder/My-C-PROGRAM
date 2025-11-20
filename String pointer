@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main(){
+    int num=10;
+    int * p;
+    p = &num;
+    printf("value of num=%d\n",num);
+    printf("address of num=%p\n",&num);
+    printf("pointre p stores=%p\n",p);
+    printf("value using pointer=%d\n",*p);
+}
