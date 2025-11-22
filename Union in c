@@ -1,0 +1,13 @@
+
+#include <stdio.h>
+int main(){
+    union rakshi{
+    int age;
+    float mark;
+};
+union rakshi r;
+r.age=10;
+printf("%d\n",r.age);
+r.mark=10.7;
+printf("%f\n",r.mark);
+}
